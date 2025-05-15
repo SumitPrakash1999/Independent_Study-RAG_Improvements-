@@ -37,23 +37,6 @@ RAPTOR is a two-level hierarchical retrieval system designed for scalable, inter
 -  CUDA memory optimizations (e.g., `torch.no_grad`, `empty_cache`) for long doc support.
 -  Traceable path from query to final generated answer.
 
-
----
-
-##  Evaluation Results
-
-| Metric                    | Score      |
-|---------------------------|------------|
-| trulens_groundedness      | 0.00       |
-| trulens_context_relevance | 0.40       |
-| ragas_faithfulness        | 0.00       |
-| ragas_context_relevance   | 0.00       |
-| gpt3_adherence            | 0.00       |
-| gpt3_context_relevance    | 0.18       |
-| gpt35_utilization         | 0.18       |
-| relevance_score           | 0.41       |
-| completeness_score        | 0.43       |
-
 ---
 
 ##  Next Steps
